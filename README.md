@@ -3,7 +3,7 @@
 Grtaphical Interface to monitor the state of all the rcomponent ROS nodes running.
 
 <p align="center">
-    <img src="https://raw.githubusercontent.com/robotnikautomation/rqt_rcomponent/master/rqt_rcomponent/resource/gui.png" alt="Gui" width="400">
+    <img src="https://raw.githubusercontent.com/RobotnikAutomation/rqt_rcomponent/main/resource/gui.png" width="400">
 </p>
 
 ## Dependencies
@@ -12,7 +12,6 @@ Grtaphical Interface to monitor the state of all the rcomponent ROS nodes runnin
 
 ## Install
 ```bash
-$ 
 $ git clone https://github.com/robotnikautomation/rqt_rcomponent
 $ catkin build
 ```
