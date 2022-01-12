@@ -1,6 +1,6 @@
 # rqt_rcomponent state monitor
 
-Grtaphical Interface to monitor the state of all the rcomponent ROS nodes running.
+Graphical Interface to monitor the state of all the rcomponent ROS nodes running.
 
 <p align="center">
     <img src="https://raw.githubusercontent.com/RobotnikAutomation/rqt_rcomponent/main/resource/gui.png" width="400">
