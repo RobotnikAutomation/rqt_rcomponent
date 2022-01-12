@@ -1,0 +1,17 @@
+<library path="src">
+  <class name="RcomponentPlugin" type="rqt_rcomponent.rcomponent.Rcomponent" base_class_type="rqt_gui_py::Plugin">
+    <description>
+      A Python GUI plugin to introspect Rcomponent state nodes.
+    </description>
+    <qtgui>
+      <group>
+        <label>Rcomponent</label>
+        <icon type="theme">folder</icon>
+        <statustip>Plugins related to Robotnik.</statustip>
+      </group>
+      <label>Rcomponent Monitor</label>
+      <icon type="theme">system-search</icon>
+      <statustip>A Python GUI plugin for monitoring Rcomponent nodes.</statustip>
+    </qtgui>
+  </class>
+</library>

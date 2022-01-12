@@ -1,0 +1,32 @@
+<package format="3">
+  <name>rqt_rcomponent</name>
+  <version>0.4.13</version>
+  <description>rqt_rcomponent provides a GUI plugin for displaying debug information about Robotnik rcomponent states (robotnik_msgs/State).</description>
+  <maintainer email="asoriano@robotnik.es">Ángel Soriano</maintainer>
+
+
+  <license>BSD</license>
+
+  <url type="repository">https://github.com/robotnikautomation/rqt_rcomponent</url>
+  <url type="bugtracker">https://github.com/robotnikautomation/rqt_rcomponent/issues</url>
+
+  <author>Ángel Soriano</author>
+  <author>Dirk Thomas</author>
+  <author>Dorian Scholz</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <exec_depend condition="$ROS_PYTHON_VERSION == 2">python-rospkg</exec_depend>
+  <exec_depend condition="$ROS_PYTHON_VERSION == 3">python3-rospkg</exec_depend>
+  <exec_depend version_gte="0.2.19">python_qt_binding</exec_depend>
+  <exec_depend>rcomponent</exec_depend>
+  <exec_depend>rqt_gui</exec_depend>
+  <exec_depend>robotnik_msgs</exec_depend>
+  <exec_depend>rqt_gui_py</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+
+  <export>
+    <architecture_independent/>
+    <rqt_gui plugin="${prefix}/plugin.xml"/>
+  </export>
+</package>
