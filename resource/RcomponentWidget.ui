@@ -48,7 +48,7 @@
      </column>
      <column>
       <property name="text">
-       <string>type</string>
+       <string>Hz</string>
       </property>
      </column>
      <column>
